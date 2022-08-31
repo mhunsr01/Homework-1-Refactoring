@@ -7,6 +7,7 @@
 body {
     background-color: #d9dcd6;
 }
+
 /*this is the header with the 3 links made this an element instead of class  */
 header {
     padding: 20px;
@@ -24,8 +25,8 @@ strong {
     color: #d9dcd6;
     
 }
-/*links are adjusted right* removed header div*/
 
+/*links are adjusted right* removed header div*/
 ul {
     list-style-type: none;
     padding-top: 15px;
@@ -44,17 +45,18 @@ a {
     color: #ffffff;
     text-decoration: none;
 }
-/*this is the background image*/
+
+/*this is the background image style*/
 .hero {
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
 }
 
-
 p {
     font-size: 16px;
 }
+
 /*these are the blue boxes aligned left and vertical under the background*/
 .content {
     width: 75%;
@@ -74,7 +76,8 @@ p {
     max-height: 200px;
 }
 
-.search-engine-optimization {
+/*made one box style removing redundant code*/
+.blue-box {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -83,35 +86,8 @@ p {
     color: #ffffff;
 }
 
-.online-reputation-management {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.social-media-marketing {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.search-engine-optimization h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.social-media-marketing h2 {
+/*removed unnecessary class in css and redundant coding*/
+h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
@@ -127,6 +103,7 @@ p {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
 }
+
 /*created one style for logos*/
 .benefit-logo {
     margin-bottom: 32px;
@@ -146,6 +123,7 @@ h3 {
     max-width: 150px;
 }
 
+/*adjusted footer to element and id for h2 style*/
 footer {
     padding: 30px;
     clear: both;

@@ -34,7 +34,9 @@ I added a span command to the background image for accessibility qualities
 
 I spaced and aligned the html for clarity.
 
+I ensured all the HTML code was semantic removing span and div tags.  There was quite a bit of redundancy in the CSS because of the html file structure, which was corrected after adjusting the index file.  
 
+This cleaned up the CSS and allowed for removal of various redundant portions of code and using classes for several portions rather than treating them as IDs.  
 
 
 
